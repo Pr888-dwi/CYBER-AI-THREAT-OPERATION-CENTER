@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.vscode/settings.json
+
+# Runtime data and generated models
+*.db
+*.sqlite
+*.sqlite3
+threat_model*.pkl
+
+# Logs
+*.log
